@@ -9,16 +9,16 @@ body {
 }
 
 .container {
-    width: 75%;
+    width: 77%;
     margin: auto;
 }
 
 .hero-section {
-    margin-top: 80px;
+    padding: 80px 24px;
 }
 
 .content-1 {
-    width: 50%;
+    width: 51%;
     float: left;
 
     h1 {
@@ -31,16 +31,48 @@ body {
     p {
         color: #4A5565;
         font-size: 20px;
+        line-height: 1.6;
+        width: 100%;
+        margin-bottom: 32px;
     }
 }
 
 .content-2 {
     padding-top: 50px;
+
     img {
         width: 384px;
         border-radius: 15px;
     }
+
     width: 35%;
     float: right;
 
+}
+
+.black-button {
+    padding: 16px 32px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    width: 217px;
+    height: 64px;
+    border: black;
+    font-weight: 500;
+}
+
+.white-button {
+    padding: 16px 32px;
+    margin-left: 14px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    width: 165px;
+    height: 64px;
+    border: #D1D5DC solid;
+    font-weight: 500;
 }
